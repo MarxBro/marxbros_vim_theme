@@ -36,24 +36,25 @@ highlight Operator	    ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE
 " Keyword defaults to Statement
 " Exception defaults to Statement
 
-highlight PreProc	    cterm=bold ctermfg=NONE ctermbg=NONE gui=bold guifg=NONE guibg=NONE
+highlight PreProc	    ctermfg=NONE ctermbg=NONE  guifg=NONE guibg=NONE
+"highlight PreProc	    cterm=bold ctermfg=NONE ctermbg=NONE  guifg=NONE guibg=NONE
 " Include defaults to PreProc
 " Define defaults to PreProc
 " Macro defaults to PreProc
 " PreCondit defaults to PreProc
 
-highlight Type		    ctermfg=NONE ctermbg=NONE gui=bold guifg=NONE guibg=NONE
+highlight Type		    cterm=NONE ctermfg=NONE ctermbg=NONE  guifg=NONE guibg=NONE
 " highlight Type		cterm=bold ctermfg=NONE ctermbg=NONE gui=bold guifg=NONE guibg=NONE
 " StorageClass defaults to Type
 " Structure defaults to Type
 " Typedef defaults to Type
 
-highlight Special   ctermfg=NONE ctermbg=black gui=bold guifg=NONE guibg=black
+highlight Special   ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE
 "highlight Special	    cterm=bold ctermfg=NONE ctermbg=NONE gui=bold guifg=NONE guibg=NONE
 " SpecialChar defaults to Special
 " Tag defaults to Special
 " Delimiter defaults to Special
-highlight SpecialComment ctermfg=NONE ctermbg=black gui=bold guifg=NONE guibg=black
+highlight SpecialComment ctermfg=NONE ctermbg=black guifg=NONE guibg=black
 " Debug defaults to Special
 
 highlight Error		    cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=grey
