@@ -67,7 +67,8 @@ highlight SpecialComment                ctermfg=NONE ctermbg=black              
 " Debug defaults to Special
 
 " POD es importante!
-highlight perlPOD           ctermfg=grey ctermbg=none              guifg=grey guibg=NONE
+highlight perlPOD           ctermfg=grey ctermbg=none              guifg=grey  guibg=NONE
+highlight perlDATA          ctermfg=grey ctermbg=none              guifg=grey guibg=black
 highlight TODO              ctermfg=grey ctermbg=none              guifg=grey guibg=NONE
 
 highlight Error		      cterm=reverse ctermfg=NONE ctermbg=NONE  gui=reverse  guifg=NONE guibg=grey
