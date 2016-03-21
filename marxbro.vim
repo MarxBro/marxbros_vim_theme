@@ -66,6 +66,10 @@ highlight Special                       ctermfg=NONE ctermbg=NONE guifg=NONE gui
 highlight SpecialComment                ctermfg=NONE ctermbg=black              guifg=NONE guibg=black
 " Debug defaults to Special
 
+" POD es importante!
+highlight perlPOD           ctermfg=grey ctermbg=none              guifg=grey guibg=NONE
+highlight TODO              ctermfg=grey ctermbg=none              guifg=grey guibg=NONE
+
 highlight Error		      cterm=reverse ctermfg=NONE ctermbg=NONE  gui=reverse  guifg=NONE guibg=grey
 
 " vim:et:ff=unix:tw=0:ts=4:sw=4
